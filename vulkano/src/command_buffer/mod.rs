@@ -111,8 +111,7 @@
 pub use self::{
     auto::{AutoCommandBufferBuilder, PrimaryAutoCommandBuffer, SecondaryAutoCommandBuffer},
     commands::{
-        acceleration_structure::*, clear::*, copy::*, debug::*, dynamic_state::*, pipeline::*,
-        query::*, render_pass::*, secondary::*, sync::*,
+        clear::*, copy::*, render_pass::*,
     },
     traits::{
         CommandBufferExecError, CommandBufferExecFuture, PrimaryCommandBufferAbstract,
